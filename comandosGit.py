@@ -74,4 +74,7 @@ Comandos Básicos do Git
 
 24. git show <commit>
     Exibe informações detalhadas sobre um commit específico.
+
+25. git config --global --add safe.directory '<caminho-do-repositorio>'
+    Marca um diretório como seguro, permitindo que o Git funcione corretamente mesmo em diretórios com permissões especiais.
 """
